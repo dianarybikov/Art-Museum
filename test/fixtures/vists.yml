@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  info: MyString
+  hours: MyString
+  adult_ticket_prices: MyString
+  kid_ticket_prices: MyString
+  senior_ticket: MyString
+
+two:
+  info: MyString
+  hours: MyString
+  adult_ticket_prices: MyString
+  kid_ticket_prices: MyString
+  senior_ticket: MyString
