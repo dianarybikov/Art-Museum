@@ -6,6 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 Exhibition.destroy_all
+Event.destroy_all
 
 Vist.create(
     info: "Following public health guidelines, new general admission ticket are relased to the public on a rolling basis two weeks in advance. Members recieve access to tickets on a rolling basis three weeks in advance. As conditions....",
@@ -80,5 +81,47 @@ cm = Exhibition.create(
     description:"The Truth of Nature",
     image: "https://d26jxt5097u8sr.cloudfront.net/s3fs-public/styles/square_800/public/37_2017_o2.jpg?itok=lo0eABSs",
     length:"October 21, 2020-March 31, 2021",
+    likes: 0
+)
+fr= Event.create(
+    name:"Free Day",
+    description:"Come enjoy the art in the museum for FREE!!",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbvfksj16wSkCTccUIDwVlMDNgSUcWbY33Z-_9zrw8bGOxP7q1cQYZG_8&s",
+    length:"Every Sunday",
+    likes: 0
+)
+ow = Event.create(
+    name:"Open Wall",
+    description:"Looking for artist who want their art hanging",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOW5XfTSiAX2ND8v_NABGO48zOo5W7PeK2xr6USfYBnoXZpwD1fJ0gJb8&s",
+    length:"May 1, 2021- May 31, 2021",
+    likes: 0
+)
+gt = Event.create(
+    name:"Guided Tour",
+    description:"First time, no problem",
+    image: "https://artmuseum.mtholyoke.edu/sites/default/files/images/people_2017fa_student_guides_dec08_0118_975-530.jpg",
+    length:"Monday through Friday",
+    likes: 0
+)
+mn = Event.create(
+    name:"Movie Night",
+    description:"Come enjoy a movie with your favorite collections",
+    image: "https://images8.alphacoders.com/794/thumb-350-794039.jpg",
+    length:"October 21, 2021",
+    likes: 0
+)
+ow = Event.create(
+    name:"Open Wall",
+    description:"Looking for artist who want their art hanging",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT59iUsWzsveCUUKiu_HcTaWS79F1E69DxPDk1lo0iLxYeWLfm9od9q33I&s",
+    length:"August 06, 2021- September 10, 2021",
+    likes: 0
+)
+odc = Event.create(
+    name:"Online Drawing Class",
+    description:"Join in for a fun, new experience",
+    image: "https://digitaldefynd.com/wp-content/uploads/2018/08/Best-Drawing-course-tutorial-class-certification-training-Lesson-online.jpg",
+    length:"Call and check availability",
     likes: 0
 )
